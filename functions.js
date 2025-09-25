@@ -1,12 +1,19 @@
 //Function Declarations
 
-function func(){
+function func(/*parametar keep here*/){
 console.log('this is function declarations');
 }
-func();
+func(/*pass function arguments*/);
 
 //Function Expression
-const funct = function(){
+const funct = function(/*parametar keep here*/){
   console.log('this is functio expression');
-}func();
+}func(/*pass function arguments*/);
+
+//Arrow function 
+const arrFunc =(/*parametar keep here*/) =>
+  {
+console.log('this is Arrow function');
+  }arrFunc(/*pass function arguments*/)
+
 
